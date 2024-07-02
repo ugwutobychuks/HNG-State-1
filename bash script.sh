@@ -1,6 +1,6 @@
 Bash Script: create_users.sh
 bash
-Copy code
+
 #!/bin/bash
 
 # Log file

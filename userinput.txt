@@ -1,10 +1,10 @@
-skyWalker;	star, team	
-quantumRider;	tech, masters	
-pixelPioneer;	code , crew	
-dataDynamo;	info, warriors	
-nebulaNavigator; cloud, chasers	
-cipherSage;	crypto, clan	
-byteMaverick;	bit, brigade	
-matrixMarauder;	grid, guardians	
-logicLegend;	script, squad	
-vortexVoyager;	net, navigators	
+skywalker;	star, team	
+quantumrider;	tech, masters	
+pixelpioneer;	code , crew	
+datadynamo;	info, warriors	
+nebulanavigator; cloud, chasers	
+ciphersage;	crypto, clan	
+bytemaverick;	bit, brigade	
+matrixmarauder;	grid, guardians	
+logiclegend;	script, squad	
+vortexvoyager;	net, navigators	

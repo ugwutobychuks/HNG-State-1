@@ -1,10 +1,10 @@
-SkyWalker27,	StarTeam	
-QuantumRider,	TechMasters	
-PixelPioneer,	CodeCrew	
-DataDynamo,	InfoWarriors	
-NebulaNavigator,CloudChasers	
-CipherSage,	CryptoClan	
-ByteMaverick,	BitBrigade	
-MatrixMarauder,	GridGuardians	
-LogicLegend,	ScriptSquad	
-VortexVoyager,	NetNavigators	
+skyWalker;	star, team	
+quantumRider;	tech, masters	
+pixelPioneer;	code , crew	
+dataDynamo;	info, warriors	
+nebulaNavigator; cloud, chasers	
+cipherSage;	crypto, clan	
+byteMaverick;	bit, brigade	
+matrixMarauder;	grid, guardians	
+logicLegend;	script, squad	
+vortexVoyager;	net, navigators	

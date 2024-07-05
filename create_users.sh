@@ -4,9 +4,25 @@
 LOGFILE="/var/log/user_management.log"
 PASSWORD_FILE="/var/secure/user_passwords.txt"
 
-# Ensure log and password files exist
-touch $LOGFILE
-touch $PASSWORD_FILE
+
+# Ensure the log directory exists
+mkdir -p /var/log
+
+
+# Ensure password directory exists and set permissions
+if [ ! -d "/var/secure" ]; then
+    mkdir -p /var/secure
+fi
+
+chmod 700 /var/secure
+
+# Ensure password file exists and set permissions
+if [ ! -f "$PASSWORD_FILE" ]; then
+    touch "$PASSWORD_FILE"
+    chmod 600 "$PASSWORD_FILE"
+fi
+
+
 
 # Function to generate random password
 generate_password() {

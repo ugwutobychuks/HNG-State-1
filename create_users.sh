@@ -10,17 +10,18 @@ fi
 USER_FILE="$1"
 
 # Log file for user management actions
-LOG_FILE="/Users/jade/sysops/var/log/user_management.log"
+LOG_FILE="/var/log/user_management.log"
 # File to store generated passwords
-PASSWORD_FILE="/Users/jade/sysops/var/secure/user_passwords.txt"
+PASSWORD_FILE="/var/secure/user_passwords.txt"
 
 # Ensure the log directory exists
-mkdir -p /Users/jade/sysops/var/log
+mkdir -p /var/log
 # Ensure the secure directory exists
-mkdir -p /Users/jade/sysops/var/secure
+mkdir -p /var/secure
 
 # Ensure the log file exists
 touch $LOG_FILE
+
 # Ensure the password file exists and set appropriate permissions
 touch $PASSWORD_FILE
 chmod 600 $PASSWORD_FILE
